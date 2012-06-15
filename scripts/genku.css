@@ -1,14 +1,9 @@
-/* Arthur: Justin  */
-
 html, body { height:100%; } 
 body { background: #000 url(../img/bg.jpg) no-repeat center center fixed; background-size: cover; font-family: Tahoma; font-size: 11px; color: #FFFFFF; }
 a { color: #FFF; text-decoration: none; } a:hover { color: #09F; } * { margin: 0; padding: 0; }
 p.nav { padding: 13px 0 0 0; z-index: 2; left: 1%; } p.nav a { padding: 0 3px 0 0; }
 blue {  color: #09F; } green { color: #2E2; } h2 { font-size: 11px; color: #09F; font-weight: bold; }
 p.main { clear: both; padding: 9px 5px 0 5px; }
-
-/* ID's */
-
 #middle { margin-right: auto; margin-left: auto; width: 870px; }
 #content { float: right; margin-top: 5px; width: 500px; border: 1px solid #000; background-image: url('../img/transbg.png'); background-repeat: repeat; padding: 15px; max-height: 65%; overflow: auto; }
 #main { float: right; margin-top: 5px; width: 500px; border: 1px solid #000; background-image: url('../img/transbg.png'); background-repeat: repeat; padding: 15px; max-height: 65%; overflow: auto; }
@@ -16,9 +11,5 @@ p.main { clear: both; padding: 9px 5px 0 5px; }
 #about { position: fixed; float: left; margin-top: 145px; width: 300px; border: 1px solid #000; background-image: url('../img/transbg.png'); background-repeat: repeat; padding: 15px; }
 #content p.left { float: left; position: fixed; clear: left; float: left; } #content p.right { clear: right; float: right; } #content p.content { clear: both; padding: 9px 5px 0 5px; }
 #footer { background-image: url(../img/transbg.png); background-repeat: repeat; position: fixed; bottom: -100px; left: 0px; height: 141px; width: 100%; }
-
-
-/* Classes */
-
 .design { float: right; text-transform: uppercase; padding: 4px; font-weight: bold; font-size: 8px; color: #FFF; }
 .navigation { right: 1%; } .navigation a { text-transform: uppercase; padding: 4px; font-weight: bold; font-size: 8px; }
